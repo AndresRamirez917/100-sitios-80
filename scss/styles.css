@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+span {
+  color: grey;
+}
+
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: grey;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+}
+form button:hover {
+  background: #000;
+}
+
+#contact form .flexbox {
+  flex: 1;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
