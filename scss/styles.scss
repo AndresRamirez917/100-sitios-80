@@ -11,12 +11,14 @@ $font-stack:"Montserrat", sans-serif;
 html, body {
     font-family: $font-stack;
     scroll-behavior: smooth;
+    background: #000;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: #ffffff;
 }
 
 .navbar ul li a:hover,
@@ -42,7 +44,7 @@ span {
     margin: 3rem 0;
     font-size: 2rem;
     font-weight: 300;
-    color: #fff;
+    color: #000000;
 }
 
 ul {
@@ -97,6 +99,49 @@ form {
         background: #000;
     }
 }
+
+//mainheader 
+#mainheader {
+    background: url("/images/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar {
+        .logo {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        ul {
+            margin-top: 2rem;
+            display: flex;
+        }
+        li {
+            display: inline-block;
+            margin-left: 1rem;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    #showcase {
+        .container {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .showcase-text { 
+            padding-bottom: 5rem;
+            .title {
+                font-size: 7rem;  
+                margin-top: 9rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
+
 
 //contact
 #contact {
