@@ -27,4 +27,20 @@
 }
 #about .about-flex .flexbox-1 {
   margin-bottom: 2rem;
+}
+
+#services .services-flex {
+  display: block;
+}
+#services .services-flex .serflex-1 {
+  margin-bottom: 2rem;
+}
+
+#work .work-flex {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#work .work-flex > div {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=mobile.css.map */
